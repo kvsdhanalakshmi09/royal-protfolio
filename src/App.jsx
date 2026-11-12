@@ -73,7 +73,10 @@ function App() {
       <nav className="navbar">
 
         <a href="#home" className="logo-mark" aria-label="Home">
-          <img src="/my-logo.png" alt="KSD Royal Logo" />
+         <img
+  src={`${import.meta.env.BASE_URL}my-logo.png`}
+  alt="KSD Royal Logo"
+/> 
         </a>
 
         <div className="nav-links">
